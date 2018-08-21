@@ -23,6 +23,7 @@ push-release:
         working-dir: /pipeline/source
         ports: $PORT
         cmd: sh target/bin/start
+        
 deploy-to-cluster:
     box:
         id: alpine
